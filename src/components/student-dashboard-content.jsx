@@ -18,20 +18,7 @@ export default function StudentDashboardContent(){
                             </div>
                             <div class="text-sm font-bold text-blue-600">SUBJECTS</div>
                         </div>
-                         <div class="dropdown">
-                            <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
-                            <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white border border-gray-100 w-full max-w-[140px]">
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
-                                </li>
-                            </ul>
-                        </div> 
+                         
                     </div>
 
                     <a href="/gebruikers" class="text-[#f84525] font-medium text-sm hover:text-red-800">View</a>
@@ -45,20 +32,7 @@ export default function StudentDashboardContent(){
                             </div>
                             <div class="text-sm font-bold text-blue-600">ATTENDANCE</div>
                         </div>
-                         <div class="dropdown">
-                            <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
-                            <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white border border-gray-100 w-full max-w-[140px]">
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
-                                </li>
-                            </ul>
-                        </div> 
+                        
                     </div>
                     <a href="/dierenartsen" class="text-[#f84525] font-medium text-sm hover:text-red-800">View</a>
                 </div>
@@ -68,20 +42,7 @@ export default function StudentDashboardContent(){
                             <div class="text-2xl font-semibold mb-1">2</div>
                             <div class="text-sm font-bold text-blue-600">DISCIPLINARY NOTES</div>
                         </div>
-                         <div class="dropdown">
-                            <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
-                            <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white border border-gray-100 w-full max-w-[140px]">
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
-                                </li>
-                            </ul>
-                        </div> 
+                         
                     </div>
                     <a href="" class="text-[#f84525] font-medium text-sm hover:text-red-800">View</a>
                 </div>
@@ -168,20 +129,7 @@ export default function StudentDashboardContent(){
                         <div class="bg-white border border-gray-100 shadow-md shadow-black/5 p-6 rounded-md">
                     <div class="flex justify-between mb-4 items-start">
                         <div class="font-bold text-blue-600">TIMETABLE</div>
-                         <div class="dropdown">
-                            <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
-                            <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white border border-gray-100 w-full max-w-[140px]">
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
-                                </li>
-                            </ul>
-                        </div>
+                        
                     </div>
                     <div class="overflow-hidden">
                         <table class="w-full min-w-[540px]">
@@ -261,20 +209,7 @@ export default function StudentDashboardContent(){
                 <div class="bg-white border border-gray-100 shadow-md shadow-black/5 p-6 rounded-md lg:col-span-2">
                     <div class="flex justify-between mb-4 items-start">
                         <div class="font-bold text-blue-600 ">STUDENT PROGRESS</div>
-                         <div class="dropdown">
-                            <button type="button" class="dropdown-toggle text-gray-400 hover:text-gray-600"><i class="ri-more-fill"></i></button>
-                            <ul class="dropdown-menu shadow-md shadow-black/5 z-30 hidden py-1.5 rounded-md bg-white border border-gray-100 w-full max-w-[140px]">
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Profile</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Settings</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">Logout</a>
-                                </li>
-                            </ul>
-                        </div> 
+                       
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
                         <div class="rounded-md border border-dashed border-gray-200 p-4">

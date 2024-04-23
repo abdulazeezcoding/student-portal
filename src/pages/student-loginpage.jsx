@@ -2,6 +2,7 @@ import React from 'react';
 import student from '../assets/images/student.png';
 import { Link } from 'react-router-dom';
 
+
 export default function StudentLoginPage() {
   return (
     <>

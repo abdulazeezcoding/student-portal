@@ -6,19 +6,9 @@ export default function TeacherDashboardContent(){
         <>
         <div class="md:ml-64 min-h-screen bg-green-600">
 
-        <div class="flex justify-between sr">
+        <div class="flex justify-between">
         <h3 class="text-white text-3xl ml-6 mt-4 font-bold">Welcome</h3>
-        <Link to="/teacherlogin">
-                  <button
-                    // onClick={handleLogout}
-                    type="button"
-                    class="flex items-center justify-center text-white bg-red-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800
-                        mr-8 mt-4
-                        "
-                  >
-                    Logout
-                  </button>
-                  </Link>
+
 
         </div>
         <div class="p-6">

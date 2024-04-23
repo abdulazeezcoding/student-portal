@@ -1,11 +1,12 @@
 import React from "react";
 import student from "../assets/images/student.png";
 import { BsCart3 } from "react-icons/bs";
-import { FaBasketShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { Link } from "react-router-dom";
 import StudentDashboardContent from "../components/student-dashboard-content";
+import { CiLogout } from "react-icons/ci";
+
 
 export default function StudentDashboard() {
   return (
@@ -65,6 +66,12 @@ export default function StudentDashboard() {
                 <span className="text-sm  font-bold">E-PAYMENTS</span>
               </Link>
           </li>
+          <li className="mb-2">
+        <Link to="/" className="flex items-center py-2 px-6 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md">
+          <CiLogout className="mr-3 text-lg " />
+          <span className="text-sm  font-bold">LOGOUT </span>
+        </Link>
+    </li>
       </ul>
     </div>
     <StudentDashboardContent />

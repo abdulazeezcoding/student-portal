@@ -6,6 +6,8 @@ import { FaUser } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { Link } from "react-router-dom";
 import TeacherDashboardContent from "../components/teacher-dashboard-content";
+import { CiLogout } from "react-icons/ci";
+
 
 export default function TeacherDashboard() {
   return (
@@ -64,14 +66,15 @@ export default function TeacherDashboard() {
                 <span className="text-sm  font-bold">ACCOUNT</span>
               </Link>
           </li>
+          <li>
+          <Link to="/teacherlogin" className="flex items-center py-2 px-6 text-white hover:bg-gray-950 hover:text-gray-100 rounded-md">
+          <CiLogout className="mr-3 text-lg " />
+          <span className="text-sm  font-bold">LOGOUT </span>
+        </Link>
+    </li>
           
-{/*
-          <li className="mb-2">
-              <Link to="/dashboard" className="flex items-center py-2 px-6 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md">
-                <FaUser className="mr-3 text-lg " />
-                <span className="text-sm  font-bold">E-PAYMENTS</span>
-              </Link>
-          </li> */}
+
+
       </ul>
     </div>
     <TeacherDashboardContent />
